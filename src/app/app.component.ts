@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  canShow :boolean = false
+
+  toggle(){
+
+    this.canShow = !false
+  }
 }
